@@ -1,0 +1,52 @@
+body {
+    margin:auto;
+    max-width: 1200px; /* Adjust as needed */
+    width: 90%; /* Or use width: 100%; for full width */
+}
+.test{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 800;
+    font-size: 50px;
+    
+}
+
+.banner{
+    background-image: url('resources/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.off ,.deals>p{
+    color: orangered;
+    text-align: center;
+}
+
+.deals>h2{
+    text-align: center;
+}
+.newYrPic{
+    display: flex;
+    justify-content: center;
+}
+
+/* midNight part css */
+
+.midNight{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-image: url('resources/Vectorrr.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
