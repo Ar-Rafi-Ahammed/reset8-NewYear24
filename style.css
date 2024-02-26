@@ -64,6 +64,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: wheat;
+    padding: 10px;
+}
+.comingSoon div{
+    width: 30%;
+}
+.circle{
+    border: 5px solid red; 
+    border-radius: 50%;
 }
 
 .images{
@@ -128,4 +137,29 @@ body {
 
 .holiday{
     text-align: center;
+}
+
+
+
+.rec1 {
+    width: 100%; 
+}
+
+.rec1 img {
+    float: right;
+}
+
+.rec1 {
+    display: flex;
+    justify-content: flex-end; 
+    position: relative;
+}
+.discount{
+    position: static;
+}
+.rec2{
+    width: 20%;
+}
+.holy{
+    color: orangered;
 }
